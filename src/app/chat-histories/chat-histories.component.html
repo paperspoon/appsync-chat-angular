@@ -1,0 +1,5 @@
+<div>
+    <mat-list>
+        <app-chat-view [chat]="chat" [color]="getColor(chat.userId)" *ngFor="let chat of chatService.chats | async" ></app-chat-view>
+    </mat-list>
+</div>

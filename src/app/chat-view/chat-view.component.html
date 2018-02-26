@@ -1,0 +1,5 @@
+<p>
+  <span [ngStyle]="{'color': color}">{{chat.userId}}:</span> 
+  <span>{{chat.message}}</span> 
+  <span style="color:gray;font-size:50%;">{{chat.createdAt | date : 'short'}}</span>
+</p>
